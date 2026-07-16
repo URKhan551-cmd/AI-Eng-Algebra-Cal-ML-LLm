@@ -1,0 +1,390 @@
+Matrices ::;  A matrix is a rectangular array of real numbers arrangeed in rows and columns..
+ are simply numbers arrange in rows and colomns
+ here  m and n matrices so called m rows and n cols to keep the elements inside of it;;
+   Coefficient Labeling ::
+     Aij = here A = element and i = rows number and j = cols number in which the elemnet lie.
+     A11 = first rows first col element.
+     A12 = first row and 2nd col element
+     A13 = first row and 3rd col elements
+     A21 = second row 1st col element
+     A22 = second row and second col element
+
+
+A = 2, 3 ==>> 2 rows and 3 cols 
+
+A = |  123  |
+    |  456 |
+
+
+2 x 3 is always rows and cols... keep in mind ...
+
+TYpes of Matrices /???
+
+Identity Matrix
+[  identity matrix are those same ass like a unit vector i have few element but just on ewith real number non zero 
+    others should be zero just one element in a row or col should be 1
+           here is our 3 x 3 matrix;
+           number of rows should be equal to number of cols
+           ln = n is dimension of this l which is here 3
+
+        IMPORTANT in the identity matrix we will get just Diagonal 1 1 1 1 other wise elshwere is zeros..
+     l3 = | 1  0  0 |
+          | 0  1  0 |
+          | 0  0  1 |
+   here we get
+    a11 = a22 = a33 = a44 = a55 ==== anm = 1;
+    a21 = a31 = a32 = a23 = a41 =  0   all other  than diagonal is zeross;
+
+];
+
+Diagonal Matrix; [
+      same as like Identity matrix only non zero will be on place  of diagonal places.  it can be any
+      Real number it can be 1 2, 3, 4,5,67, -3, -5, -7
+      ,,,,,, so on ;
+]
+
+
+ONES Matrix = [
+    All the inside the 3 x 3 row and cols have numbers is just be 1;
+    | 1  1  1 |
+    | 1  1  1 |
+    | 1  1  1 |
+  this is os called ones matrix.
+
+] 
+Zero Matrix :: [
+    in this matrix all the elements are zero;  0m x n
+    we can use this vector having zeross as a placeholder. to put some 
+    value upon on the zeros.   because  anything we wanna add to 0 will become 
+    that value like =   a = 0 b = 5 if i add them  a + b = 0 + 5 = 5 
+   | 0  0  0 |
+   | 0  0  0 |
+   | 0  0  0 |
+
+];;
+
+Upper triangle:: [
+
+Upper Triangular Matrix
+
+A square matrix where all elements below the main diagonal are zero.
+
+Example
+
+2 4 6
+0 5 8
+0 0 3
+
+Notice
+
+↓ below diagonal
+
+2 4 6
+0 5 8
+0 0 3
+
+Everything below the diagonal is 0.
+
+]
+
+////
+
+lower triangle:: [
+
+Lower Triangular Matrix
+
+A square matrix where all elements above the main diagonal are zero.
+
+Example
+
+2 0 0
+4 5 0
+8 9 3
+
+Everything above the diagonal is zero.
+
+]
+
+
+/////
+
+
+
+Symmetric Matrix::[
+
+Symmetric Matrix
+
+A matrix is symmetric if
+
+A = Aᵀ
+
+meaning the matrix equals its transpose.
+
+Example
+
+1 2 3
+2 5 6
+3 6 8
+
+Transpose
+
+1 2 3
+2 5 6
+3 6 8
+
+Exactly the same.
+
+]
+
+////////////
+
+
+Sparsee Matrix::[
+
+Sparse Matrix
+
+A matrix containing mostly zeros.
+
+Example
+
+0 0 0 5
+0 0 0 0
+1 0 0 0
+0 0 0 0
+
+Almost everything is zero.
+
+Why AI uses Sparse Matrices
+
+Imagine a vocabulary of 100,000 words.
+
+A sentence like
+
+I love AI
+
+contains only three words.
+
+Instead of storing zeros 100000 numbers
+
+most of which are zero,
+
+we store only the non-zero values.
+
+This saves
+
+Memory
+Computation
+Storage
+
+Sparse matrices are used in:
+
+NLP
+Recommendation Systems
+Graph Neural Networks
+Search Engines
+
+
+]
+
+
+////////////////////////////////////
+
+
+
+Dense Matrix:::[
+
+
+Dense Matrix
+
+A matrix where most elements are non-zero.
+
+Example
+
+1 5 3
+4 2 8
+9 6 7
+
+Almost every number is non-zero.
+
+Images are usually stored as dense matrices.
+
+
+]
+
+
+
+
+?????????????????????????????????????
+
+MATRIX OPERATIONS ::
+
+Addition ::  [
+the matrix sum  of A + B two matrices involve.
+first row with second matrix row 
+  | 1 0 2 |
+  | 0 1 3 | = A  + B =  | 1 2 3 |
+  | 0 0 1 |             | 0 0 1 |
+                        | 1 2 3 |
+
+                        this will become Aij + Bij = i = 1 & j= 1    ?? B i=1 j = 1
+                        now  A11 = 1 + 1 = B11
+                             A12 = 0 + 2 = B12
+                             A13 = 2 + 3 = B13
+
+                               A21 = 0 + 0 = B21
+                               A22 = 1 + 0 = B22
+                               A23 = 3 + 1 = B23
+
+                                 A31 = 0 + 1 = B31
+                                 A32 = 0 + 2 = B32
+                                 A33 = 1 + 3 = B33
+
+
+              2 2 5
+  A + B =     0 1 4
+              1 2 4
+]
+
+
+
+Subtraction :: [
+    same ass like addition first row of matrix A and first row of Matrix B;
+
+    same idea A - B      Aij - Bij   i=row j=cols
+]
+
+
+Scalar Multiplication :: [
+    Scalar multiplictaion of matrix A by a scalar n resluts in a new matrix where each entry of A is multiplied by n;
+
+
+    A x n = | n.Aij n.Aij n.Aij |    here n = scalar value of real number.
+            | n.Aij n.Aij n.Aij |
+            | n.Aij n.Aij n.Aij |
+]
+
+
+Transpose:::  ????
+
+
+Matrix Multiplication  ::[
+Take one row from the first matrix and one column from the second matrix,
+ multiply corresponding entries, then add the results.
+
+  Amn   Bpq      n = p  (number of columns of the first matrix equals the number of rows of the second matrix)
+
+  A = | 1 2 |
+      | 3 4 |       B = | 5 6 |
+                        | 7 8 |      now do matrix multip== take A row = 1, 2  & B col = 5, 7
+                                   1 x 5  = 5
+                                   2 x 7  = 14     
+                                    total   { 5 + 14 = 19 }  
+
+                                    Now take 1st ROW and 2nd col ::
+                                    row = 1, 2  col = 6, 8
+
+                                    1 x 6 = 6
+                                    2 x 8 = 16
+                                   { total 6 + 16 = 22 }
+
+
+                         Now 2nd row with 1st col ::
+                            row =  3, 4   :   col = 5, 7 
+                            3 x 5 = 15;
+                            4 x 7 = 28
+                           {  total  = 15 + 28 = 43 }
+
+                           now 2nd row with 2nd col 
+                           row = 3, 4       col= 6, 8  
+
+                           3 x 6 = 18
+                           4 x 8 = 32
+                           { total = 18 + 32 = 50} 
+
+
+   AB= | 19  22 |     this is our final matrix
+       | 43  50 |   
+
+       GENERAL formula
+       A = m × n
+       B = n × p
+
+Then
+        C = A × B         
+]
+
+
+
+here is the second example of Matrix Multiplication ::: [
+  
+  A= | 1 2 |     B = | 1 3 |
+     | 6 8 |         | 5 7 |
+
+     take first row of A = 1, 2
+     take first column of B = 1, 5
+     then first row with second col  B =  3, 7
+     
+     take 2nd row A = 6 , 8   
+     take first col of B = 1, 5;
+     then take 2nd row of A  with B = 3, 7
+
+
+     | 1x1 + 2x5    1x3 + 2x7 |
+     | 6x1 + 8x5    6x3 + 8x7 |
+
+     | 1+10        3+14 |
+     | 6+40        18+56 |
+
+     | 11  17 |
+     | 46  74 |   this is our final matrix. 
+
+]
+
+3rd Examples of Multiplication of Matrix [
+A = | 3 5 |
+    | 7 9 |   B = | 0 2 |
+                  | 4 6 |
+
+                  take A row and B = column  
+                  3 5  X   0 4
+                  take A row B 2nd column  
+                  3 5   X  2 6
+
+                  take second row A = 7 9
+                  take B col = 0 4
+                  take A row = 7 9 
+                  take B col = 2 6
+
+
+                  |  3x0 + 5x4   3x2 + 5x6  |
+                  |  7x0 + 9x4   7x2 + 9x6  | 
+
+                  |  0 + 20      6 + 30  |
+                  |  0 + 36      14 + 54 |
+
+
+                  | 20 36 |
+                  | 36 68 |   
+
+]
+
+
+
+
+
+FINAL OVERVIEW 
+
+
+
+Matrix Type	Key Property
+Zero Matrix	Every element is 0
+Upper Triangular	All elements below the main diagonal are 0
+Lower Triangular	All elements above the main diagonal are 0
+Symmetric Matrix	Equal to its transpose, A=A
+T
+
+Sparse Matrix	Mostly zeros
+Dense Matrix	Mostly non-zero values
+Matrix Addition	Add corresponding elements (same dimensions required)
+Matrix Subtraction	Subtract corresponding elements (same dimensions required)
+Matrix Multiplication	Row × Column dot products; dimensions must satisfy (m×n)(n×p)
