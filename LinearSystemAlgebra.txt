@@ -1,0 +1,70 @@
+// Variable: Unknown value (x, y, z)
+// Linear equation: Variables have power 1 only.
+// Linear system: Two or more linear equations solved together.
+// Solution: Values that satisfy all equations simultaneously.
+// Consistent system: Has at least one solution.
+// Inconsistent system: Has no solution.
+// Unique solution: Exactly one answer.
+// Infinite solutions: Infinitely many answers.
+
+Phase 4 — Linear Systems ⭐⭐⭐⭐⭐
+
+A linear system is simply multiple linear equations solved together.
+Example
+x + y = 7
+2x + y = 11
+Graphically, each equation is a line. The solution is the point where the lines intersect.
+
+
+// example Question 1 :   x + y = 8;  x - y = 4;  // (x,y)=(6,2)
+// y = 8 - x ; =>
+// x = 4 + y;
+// y=8−(4+y)  ==>> y = 8 − 4 − y   ==>> y = 4 − y;  ==>> 2y = 4;  { y = 2;}
+
+// x = 4  + y;  == >> x = 4 + 2;  ==>   { x = 6;}
+// x + y = 8; ==>> 6 + 2 = 8 ;;; satisfy;
+// x - y = 4 ==>>  6 - 2 = 4 ;   satisfy;;;;;
+
+
+
+// example question 2::
+// 2x + y = 9,         x + y = 6;
+//  y = 9 - 2x;
+// x = 6 - y;
+//
+// y = 9 - 2(6 - y);  ==>> 9 - 12 + 2y; ==>> -3 + 2y = y;  ==>> 2y - y = 3; ==>> y = 3;
+
+// x = 6 - y;
+// x = 6 - 3;  ==>> { x = 3 };
+
+// put it all together;
+// 2(3) + 3 = 9;  ==>> 6 + 3 = 9 ; ==>>  9 = 9 satisfiessss;;;;;   for the first equation in system.
+// x + y = 6  ==>> 3 + 3 = 6;
+// here we got x + y = 6 ; ==>> 6 = 6 the second also satisfy ;;;;;
+
+////////////////////////////////////////////////
+
+
+// example question 3::  (x, y =   3.5, 2.5);
+
+// 3x + y = 13,  x − y = 1;
+
+// solution::
+// y = 13 - 3x;
+// x = 1 + y;
+
+
+// 3 (1 + y) + y = 13  ==>> 3 + 3y + y = 13 ==>>  4y = 10 ==>> y = 5​/2
+// x = 1 + 5/2​ =  7/2
+// check first eq::
+// 3(7/2) + 5/2 = 21/2 + 5/2 = 26 / 2 = 13;
+
+// 7/2 - 5/2 = 2/2 = 1;
+// (x,y = 7/2, 5/2)
+
+
+
+////////////////
+example equation :: 4;
+
+solution:: 
