@@ -75,5 +75,218 @@ Important Properties
 
 These are the properties every engineer should know.
 
+ifff iff i have  a11 = 0 then what will be the determinant 
 
+ a11 = 0   =>  a11.det = 0  will be zero beause we are multiply 0 to deter.
+
+
+ as always look at the matrix in 3x3 which row has low values go with that for determinanat that will
+ be an easy approach.
+
+ important::: interchange signs + - + - + - + - + - +   at each a.det;
+
+
+
+
+
+
+
+
+
+Important Properties
+
+These are the properties every engineer should know.
+
+
+Property 1
+
+Identity matrix
+
+I=[10
+   01]
+det(I)=1
+	​
+
+
+
+Property 2
+
+Transpose doesn't change determinant.
+
+det(A)=det(AT)
+	​
+| 1 2 |
+| 3 4 |     | 1 3 |
+            | 2 4 |     both have determianant = -2
+
+
+
+Property 3::
+
+if two rows are equal then 
+
+| 2 3 | 
+| 2 3 |
+      2x3 - 3x2 = 0;  ==>> det = 0;
+
+      two arrow point in the same direction 
+      Area becomes zero.
+
+
+Property 4::
+
+Property 4
+
+If one row is a multiple of another
+Example
+
+[ 1 2
+  2 4 ]
+
+Second row = 2 × first row. Determinant = 1(4)−2(2)=0  =>> Always   det=0
+	​
+
+///////////////////
+
+
+Property 5
+
+Swap two rows
+
+Swapping rows changes only the sign.
+
+Example
+
+Original      | 1 2 |
+              | 3 4 |   det = -2;
+
+              if swap  | 3 4 |
+                       | 1 2 |  = det = 2;
+
+                       Swap rows => det => -det
+
+
+///////////////
+
+
+Property 6
+
+Multiply one row by k
+
+Example:   | 1 2 |
+           | 3 4 |   Multiply first row by 5
+                      5 | 1 2 |   =>> | 5 10 |
+                                      | 3 4  |  =  det = 
+
+
+
+
+
+                       
+//////////////////////////////
+
+Property 7: 
+Add one row to another: 
+
+original  | 1 2 |    origninal det = -2
+          | 3 4 |   Row2 becomes   R2 + R1  row2 + row1  =>> 1+3 2+4 => 4 6
+
+
+          | 1 2 |
+          | 4 6 |      here after addition rows now det = 1x6 - 2x4 => -2
+
+
+    no change 
+
+
+
+////////
+
+
+Property 8::
+Triangular matrices.
+
+| 2 4 5 |
+| 0 3 6 |
+| 0 0 8 |   multiply diagonal 2x3x8 = >> 48
+            thats the detreminant of traingular matrix.
+
+
+/////////////
+
+
+
+Property 9::
+ product Rule: ;
+ very important 
+
+ det(AB) = detA detB;
+ suppose:  detA = 4;
+           detB = 6;
+
+           detAB = 4x6 =>> 24;
+
+////////////////
+
+Propertty 10:
+
+Inverse matrix;     A^-1
+               detA^-1 = 1/detA;
+
+
+
+/////////////
+
+
+Property 11:
+
+Zero determinant: 
+                  detA = 0;
+
+                  then matrix is Singular;
+                  NO inverse
+                  Columns are linearly dependent
+                  Rows are dependent
+                  Space Collapses
+
+
+///////////////////////
+
+Property 12:: 
+Non-Zero determinant
+detA != 0
+
+INVERSE exist 
+full rank 
+independent vectors
+Unique solution.
+
+
+
+
+////////////////////////////
+
+
+6. Determinant and Systems of Equations
+
+Consider
+
+{
+2x+y=5
+x+3y=7
+}
+Coefficient matrix
+[
+2  1
+1  3]
+Determinant   6−1=5     Since  5!=0
+
+the Systems has no Unique solution.
+
+
+2nd example :: {2x+y=54
+                x+2y=10}
+                
+                2(2) - 1(4) = 0  det;
+                ​No Unique solution
 
