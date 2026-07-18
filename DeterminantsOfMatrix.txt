@@ -1,0 +1,79 @@
+1: Intro to Determinants.
+2: Calculating determinant.
+3: Properties of determianant.
+4: Determinant in geometry.
+
+Determinants are one of the most 
+important concepts in Linear Algebra. 
+They tell us whether a matrix is invertible,
+ how much a transformation stretches or shrinks space, and whether vectors are linearly independent.
+
+
+ DETERMINANT :: is a single number compute or calculated from  a ssquare matrix.
+
+ A = | a b |
+     | c d |    detA = ad - bc 
+
+     A= | 4 3 |
+        | 2 5 |     detA = 4x5 - 3x2 => 20 - 6 = 14.    this is out detA 14
+
+
+        Geometric Meaning
+
+This is the most important intuition.
+
+Imagine the two column vectors
+
+[4  2],  [3  5]
+They form a parallelogram.
+
+The determinant equals the signed area of that parallelogram.
+
+determinant provide critical insights into the property of matrix A.
+
+example:: [
+
+A = | 5 6 |
+    | 0 1 |   =>  detA = 5x1 - 6x0 =>>  5-0 => 5
+
+B = | 1 0 |
+    | 0 1 |  =>  detB = 1x1 - 0x0 =>> 1 - 0 =>> 1
+
+
+
+]
+
+
+THREE BY THREE dimension matrix Determinant find ::: 
+| 1 2 3 |
+| 4 5 6 |
+| 7 8 9 |   3x3 matrix 
+
+how do we find determinat of 3x3 matrix her is the formula =
+
+ | a11  a12  a13 |
+ | a21  a22  a23 |
+ | a31  a32  a33 |     ==>> detA =  a11.det we will hide the 1row and 1col, remainig will be cross.
+                          a11.det = a22 x a33 - a23 x a33    
+                          
+                          a12.det = here the 2col 1row hide =>> a12.det = a21 x a33 - a23 x a31
+                          a13.det = here we will hide 1row 3rd col: =>  a13.det = a21 x a32 - a22 x a31
+
+
+                         Det.A = a11.det - a12.det + a13.det;
+
+
+
+
+
+
+
+
+
+
+Important Properties
+
+These are the properties every engineer should know.
+
+
+
