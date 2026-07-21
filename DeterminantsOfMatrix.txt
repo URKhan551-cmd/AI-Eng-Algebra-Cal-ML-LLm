@@ -290,3 +290,46 @@ the Systems has no Unique solution.
                 2(2) - 1(4) = 0  det;
                 ​No Unique solution
 
+
+examples Questons::
+
+q1: find determinant of | 3 5 |
+                        | 2 7 |  => 21 - 10 = 11 det;
+
+
+Q2: find det of  | 1 4 |
+                 | 2 8 |  =>> 8 - 8 = 0det
+
+Q3: A matrix has detA = 8 
+       if you multiply the first row by 3, what is the new determinant ?
+
+           this is the rule when i multiply first row by any n
+           this will give the same result as n x det
+           now
+
+           here det is 8 
+           n is = 3   
+           now multiply 3x8 = 24;
+
+Q4: a matrix has detA = -5 what is the detA^-1?
+      inverse of det A =  1/A   where a is -5 ==>> detA-1 = 1/5;
+
+
+Q5::
+    determinanat of | 1 2 3 |
+                    | 4 5 6 |
+                    | 4 5 6 | => 0
+
+
+
+Q6:: if det A =4  And detB = -3;
+findn the product mean det(AB)=  AxB = 4x -3 = -12;
+
+Q7: You perform these operations:
+   detA = 6
+Multiply Row 2 by 5.   it mean multply 5 to detA directly.
+Swap Row 1 and Row 3.   it wil swap the ssigns -+ +-
+Replace R3←R3−2R1       whenevr replace happen nothing going to change 
+Multiply Row 1 by −2.   detA x -2 same as like product det A x N;
+
+What is the final determinant?   +60
