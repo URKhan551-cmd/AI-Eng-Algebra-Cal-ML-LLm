@@ -333,3 +333,42 @@ Replace R3←R3−2R1       whenevr replace happen nothing going to change
 Multiply Row 1 by −2.   detA x -2 same as like product det A x N;
 
 What is the final determinant?   +60
+
+
+
+example:: find the det of this 3x3 matrix:
+
+
+A= | 1 2 3 |
+   | 4 5 6 |
+   | 7 8 9 |      we will find for A11 = BLOCK THE ROW 1 AND 1ST COL:
+                  THEN CRESS DIAGONAL WITH EACH OTHER
+                  det 1.A = 5x9 - 6x8  == 45 - 48 == -3
+                  det 2.A= 4x9 - 6x7  == 36 - 42 == -6
+                  det 3.A= 4x8 - 7x5  == 32 - 35 == -3
+
+                  det A - detA2 + detA3 =  -3 - 2(-6) + 3(-3) ==  -3 + 12 -9 == +9-9 = 0
+
+
+Practice Question ::  | 2 1 3 |
+                      | 1 0 2 |
+                      | 4 1 5 |  ==>> A.2 = 0x5 - 2x1  //  A.2= -2
+                                     -A.1 = 1x5 - 4x2  //  -A.1 = 5 - 8
+                                      A.3 = 1x1 - 4x0  //  A.3 = 1     
+
+
+                                      A = 2 x (-2)
+                                      A = -1 x (-3)
+                                      A = 3x1    
+
+                                      A= -4
+                                      A= +3
+                                      A= 3 
+
+                                      ADD EVERYTHING
+                                      -4 + 3 + 3 = -1 + 3 =  +2 our answer.
+                                      
+
+
+                                    
+
