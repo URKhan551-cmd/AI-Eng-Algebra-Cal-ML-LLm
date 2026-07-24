@@ -1,0 +1,54 @@
+Vector: vector is an object with magnitude and direction. A=| 1 2 |;
+Vector Space :
+              vector space is as simple like a collection of vectors where you can add them and multiply with any scalar value.
+             * Add vetcors 
+             * multiply vector by number (scalars).
+               same as like span each amd every vector belongs from here like i have 2 vector in R2 dimension.
+               will keep all the vector in the same dimension or plane.
+             * ector spaces are not only arrows. They can also be
+matrices
+polynomials
+functions
+signals
+images
+Anything satisfying the vector space rules.
+
+SPAN: i have two vector A and B multiply them with any number like;
+                nA + nB  = C so those two vector give us final vector C which will be in the plane of two vector called SPAN.
+                SPAN is All possible linear combination of two vector.
+
+LINEAR COMBINATION:: multiply vectors by number then Add them 
+                    An + Bn = C   
+
+LINEAR INDEPENDENCE:: now i have two vector where one is the multiple to another like A and B 
+                          if i multiply A with some n will give us B. and vise versa.
+                      * it mean one is just a copy to another just increase by some value .
+                      * they are pointed to the same direction 
+                      * called Linear Dependent Vectors.
+
+
+                  if i have two vector neither multiple of each other both give us unique direction.
+                 * only give us one Solution
+                 * Linear Independent.
+
+//////////////////////////////////////////////
+
+BASIS:::
+The smallest set of vectors that can generate the entire vector space.
+A basis has two properties.
+
+* They span the space.
+* THey are linear independent 
+BOTH CONDITION SHOULD SATISFY.
+
+R2 dimension vectors         A = | 0 1 |    B=| 1 0 |
+
+                      they will generate any vector. neither depend on each other.
+
+
+/////////////////////////////////
+
+DIMENSIONS:  number of vector in the basis.   R2 2dimension have 2 vector A and B
+               
+                             
+
