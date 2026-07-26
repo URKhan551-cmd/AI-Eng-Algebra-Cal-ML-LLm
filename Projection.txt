@@ -1,0 +1,77 @@
+WE ARE GONG TO DISCUSS PROJECTION OF VECTORS 
+PROJECTION:: Projection means finding the "shadow" of one vector onto another vector (or onto a plane or subspace).
+SUPPOSE WE WALK TOWARDS NORTHEAST   WITH A = | 4 3 |     
+THE ROAD ONLY GOES EAST WEST. ROAD DIRECTION IS   B = | 1  0 |
+YOU DIDNOT WALK COMPLETELY ON THE ROAD BECAUSE SOME OF MY OART IS IN NORTH.
+
+PROJECTION::: how much of your movement actually happend along the road. 
+that will be projection of A onto B.
+
+
+Proj B(A)   ;
+
+Machine learning uses projection to
+* reduce dimensions
+* find best-fit lines
+* perform Principal Component Analysis (PCA)
+
+Computer graphics uses projection to
+* create shadows
+* render 3D scenes onto a 2D screen
+
+Signal processing uses projection to
+* remove noise
+* isolate useful signals
+
+DOT PRODUCT:: Projection is build on dot product.
+A = | 4 3 |
+b = | 2 0 |    The dot product tells us    A.B = 4(2) + 3(0) == 8
+
+How much one vector points in the direction of the other.
+
+THE PROJECTION FORMULA IS ::    ProjB(A) = A.B/|B|^2  x B      this tells us A vector projected onto B vector
+
+
+example:  A= | 4 2 |  B= | 1 0 |
+
+first get Dot Product = A.B = 4(1) + 2(0) == 4 
+
+length square of B = |B|^2    =  1^2 + 0^2 = 1  
+
+  this become 4/1  
+now multiply this by B vector 
+  4 / 1 | 1 0 |  =   4x1 / 1x0 = 4/0      the sahdow lie exact;y on x-axis
+
+ProjB(A) = 4 / 0;
+
+
+///////////////////////////////
+
+
+EXAMPLE 2:      A = | 2 4 |   B = | 1 1 |
+
+DOT    A.B = 2(1) + 4(1); = 2 + 4 = 6;
+
+B^2 =  1^2 + 1^2 = 2;
+
+6 / 2  multiply with B  OR    6/2 = 3 ,ultiply with B
+
+3 x | 1 1 | = 3x1/3x1 =  3 / 3 = 3/3     ProjB(A) = 3/3  3 x-axis  3 y-axis
+
+Notice that the projection lies on the line y=x, because that line is defined by the direction vector (1,1).
+
+
+/////////////////////////////////////
+
+
+same vector also on line B where a-Projb(a) is perpendicular / orthogonal to B
+
+*** if two vector are orthigonal it mean their dot product is equal to zero.
+**** to get this confirm we can get DOT between the orthogonal of A onto B or projection OF A onto B
+     [   A - ProjB(A). B   ] = 0
+
+the perpendicular line between line B and A which is this [ A - ProjB(A) ]; formula
+Orthogonal to line B
+
+THE MAIN LINE IS THE linear combination of vector B . or CxB C is any Real number that can scale vector B.
+
