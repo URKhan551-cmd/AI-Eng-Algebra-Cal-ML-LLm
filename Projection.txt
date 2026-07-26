@@ -75,3 +75,30 @@ Orthogonal to line B
 
 THE MAIN LINE IS THE linear combination of vector B . or CxB C is any Real number that can scale vector B.
 
+
+ProjB(A)  is the projection vector or shadow on line B.
+ProjB(A) = C.B     equal to the linear combination of B vector.
+
+( A - ProjB(A) ).B = 0;
+
+( A - C.B ) . B = 0      we can write this 
+
+from here we can find C   the scalar magnitude of B vector.
+
+AxB - C.BxB = 0   ===>>   C.BxB = AxB   ==>> C = A.B / B.B
+
+
+C = A.B / B.B   is to find C
+
+
+///////////////////////////////////
+
+NOW PROJECTION OF A ONTO B  = ProjB(A)  = ?
+
+ProjB(A) = C.B        we got C in the last one example   C = A.B / B.B
+
+ProjB(A) = (A.B / B.B).B    this is the projection of a on the line b
+
+
+
+
