@@ -101,4 +101,22 @@ ProjB(A) = (A.B / B.B).B    this is the projection of a on the line b
 
 
 
+////////////////////
+EXAMPLE ::  given two vector A = (4, 3) and B = (2, 0) in a 2-dimensional space
+GOAL:: find the projection of A onto B  denoted by projB(A);
+
+ProjB(A) = ( A.B/B.B ).B
+        A.B = 4x2 + 3x0 = 8
+        B.B = 2x2  + 0x0  = 4
+      get 8/4 . B   =    8/4=2    2x2 2x0  = (4/0) final 
+
+
+///////////////////
+
+
+
+
+
+
+
 
