@@ -1,0 +1,118 @@
+suppose someone give me 2 vectors:
+
+v1=(2, 0)
+v2=(3, 4)
+
+make them perpendicular = 90% between of them.
+
+
+step 1 =  v1 = (2, 0)      this is the horizontal X axis straight line woth y=0
+step 2 =  v2 = (3, 4)
+
+now how much v2 lies on v1 horizontal part.
+
+v2 horizontal part is = (3, 0) yep
+
+(3, 4) - (3, 0) = (0, 4);    now (0,4) vector is fully perpendicular only on Y axis 
+  and  
+(2, 0) is hori fully   so both  y and x are now perpendicular.
+
+that is the whole idea of gram=schmidt    if somevector already on that position dont involve others on if other has same direction.
+/////////////////
+  
+Example///   v1(1,0)    v2(2,5) =>    projectV2 on V1= (2, 5) - (2, 0)= (0, 5)  
+
+EXAMPLE :: 
+if A perosn teaches Python and B teaches  Pythom and Machine learning.
+
+according to GRAM    person B should not teach them, python because they have been through the python they need ML to focus on.
+
+
+
+Example 3::
+
+v1=(1, 1)
+v2=(2, 1)
+
+make them Orthogonal ??   ==>> 
+step 1 = v1=u1 == u1 = (1, 1)
+
+step 2: v2=(2, 1); how much the v2 lies on u1    as create shadow.  
+
+how much both are in the same direction placing V2 shadow onto U1.
+
+when we use the projection formula = 
+
+step3 == remove  
+          (2, 1) - (1.5, -1.5) = (0.5, -0.5)
+
+
+now check dot product if DOt product give us zero it mean they are perpendicular  (1)(0.5) + (1)(-0.5) = 0
+
+they are perpendicular.
+
+DOT product +  MEAN  positive dot product = same direction
+
+DOT product -  mean negative dot product  = they point in opposite direction.
+
+DOT product 0 mean they have no overlaping.
+
+
+when GRAM remove the overlapping part remaining part zero overlapping with the first one.
+
+
+AI ENGENEERING EXAMPLE:: if i have height 180cm  to 1.8m   both have same intuition then why use both remove one 
+            reduce REDUNDANCY (repetition);
+
+
+/////////////
+
+Example 1: v = (6, 8)  find its projection on X axis ?
+          answer===  * projection onto X-axis.
+                     * 6 answer
+                     * if ask how much the scalar component = 6
+                     * if ask what is the projection vector (6, 0)
+                     * 
+
+
+example2::  v1 = (4, 0)   v2 = (4,3);    remove the part of v2 that overlap with v1?
+
+          annswer==>>  remove the overlap part so remove X-axis they should overlap so x = 4 in both vector 
+                      * V2 = horizon(4,0)   vertical part (0,3)
+                      * 
+
+
+   
+
+            
+FIND THE OVERLAPING PART THEN SUBTRACT IT.   walahhhh
+
+EXAMPLE 5** =:: 
+
+v1=(1, 1)     v2=(3, 1)
+
+notice if we dram this in cordinate system v1 point at 45degree angke
+                                           v2 point at 18degree
+they are not pointing in the same direction 
+
+now here the projevtion formula takes part.   (a.b/b.b).b
+
+if v2 projecting onto v1   the formula will be    (v2.v1/v1.v1).v1
+
+the denominator v1.v1  is always the final vector always the same the one you are projecting onto.
+
+STEP 1
+v2.v1= (3, 1)+(1, 1) ==>> 3x1 + 1x1 = 4
+v1.v1 = (1, 1)+ (1, 1) ==>> 1^2 + 1^2 = 2
+
+STEP 2:
+compute projection    (4/2).v1 =>   (4/2)x(1, 1) ==>>  (2)(1, 1) ===>>> (2, 2)
+
+the shadow of v2 on v1 is (2, 2)
+
+STEP 3: 
+remove overlaping    (3, 1) - (2, 2) => (1, -1)
+
+                    (1, -1). (1, 1) ==>> 1-1 = 0   mean perpendicular.
+
+ 
