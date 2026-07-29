@@ -1,0 +1,44 @@
+i have been pulling a box in the x direction and somehow i aply force on x and y also but 
+y axis force wont help me out 
+x axis force help me to get the box to the specific position where we want it to be.
+so X force in horixzontal direction is called Projection. shadow of that vector to the horizontal line.
+Y axis force is called LEFTOVER.
+
+v=(3, 4);; here  x = 3  y =4 
+it mean 
+3 unit goes in x direction
+4 unit goes in y direction.
+
+useful force is ( 3 ).
+(3, 4) = (3,0) (0, 4)  this is my projection.
+
+
+/////////////////
+
+
+now Example 2::
+if i see a student mark sheet he got MATH = 80%
+                                     PHYSICS = 80%
+they are almost the same skils.
+if we use this in AI the model get trained twice on the same DATA.
+
+we want independent information physics = MATH + extra Physics skills
+
+we already know MATH just we need to add EXTRA physics skils.
+
+subtract the MATH PART from extra physics skills   that is the intuition of GRAM-SCHMIDT process said.
+
+
+EXAMPLE 3::
+i walk to east 5 
+and NORTH = 4
+
+so overall MOVEMENT = (5, 4) == if someone ask how much did you move towards EAST then its clear = 5 this is projection onto EAST direction
+
+
+
+
+
+
+
+
